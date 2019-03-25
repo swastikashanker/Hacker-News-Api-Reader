@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+
+>
+
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+
+                  android:textStyle="bold"
+
+                  android:id="@+id/tvTitle"
+        />
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:id="@+id/tvUrl"
+
+
+        />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="6">
+                <ImageButton android:layout_width="10dp" android:layout_height="match_parent"
+                             android:layout_weight="1"
+                             android:background="@color/bg"
+                             android:src="@drawable/like"
+                             android:scaleType="fitCenter"/>
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/tvScore"
+                          android:layout_weight="1"
+                />
+                <ImageButton android:layout_width="10dp" android:layout_height="match_parent"
+                             android:layout_weight="1"
+                             android:background="@color/bg"
+                             android:src="@drawable/comment"
+                             android:scaleType="fitCenter"
+                />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_weight="1"
+
+                android:id="@+id/tvDescendants"/>
+
+                <ImageButton android:layout_width="10dp" android:layout_height="match_parent"
+                             android:layout_weight="1"
+                             android:background="@color/bg"
+                             android:src="@drawable/share"
+                             android:scaleType="fitCenter"
+                />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
